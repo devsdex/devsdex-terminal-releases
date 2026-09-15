@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="512"
+     height="512"
+     viewBox="0 0 512 512"
+     fill="none"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Isotipo de DevsDex</title>
+  <desc id="desc">Letra D mayúscula negra, geométrica, con chaflán diagonal en la esquina superior izquierda.</desc>
+  <path fill="#000000" fill-rule="evenodd" clip-rule="evenodd"
+        d="M72 48H258C370.7 48 440 123.8 440 248V264C440 388.2 370.7 464 258 464H72V48ZM72 152H254C310.7 152 344 190.4 344 252V260C344 321.6 310.7 360 254 360H168V168H72V152Z"/>
+</svg>
