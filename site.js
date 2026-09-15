@@ -6,7 +6,7 @@ let language = navigator.language.startsWith('es') ? 'es' : 'en';
 function render(){
  document.documentElement.lang=language;
  document.querySelector('nav').setAttribute('aria-label',language==='es'?'Navegación principal':'Main navigation');
- document.querySelectorAll('img[src="assets/app-workspace.png"]').forEach(img=>img.alt=language==='es'?'devsdex terminal: conexión guardada, carpetas remotas y terminal SSH activa':'devsdex terminal: saved connection, remote folders and an active SSH terminal');
+ document.querySelectorAll('img[src="assets/app-workspace.png"]').forEach(img=>img.alt=language==='es'?'Termdex: conexión guardada, carpetas remotas y terminal SSH activa':'Termdex: saved connection, remote folders and an active SSH terminal');
  document.getElementById('expand').setAttribute('aria-label',language==='es'?'Ampliar captura de la aplicación':'Enlarge app screenshot');
  document.querySelectorAll('[data-i18n]').forEach(el=>{const value=translations[language][el.dataset.i18n];if(el.dataset.i18n==='headline')el.innerHTML=value;else el.textContent=value;});
  document.querySelectorAll('[data-app-name]').forEach(el=>el.textContent=window.SSHDESK_RELEASE.name);
